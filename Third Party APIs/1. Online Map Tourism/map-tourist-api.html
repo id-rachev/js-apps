@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Online Map Tourism</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <style>
+        html, body {
+            margin: 10px;
+            padding: 0;
+        }
+
+        #map-tourist {
+            width: 800px;
+            position: relative;
+        }
+
+        #map-canvas {
+            height: 600px;
+            width: 800px;
+        }
+
+        #navigation {
+            margin: 5px 57px;
+        }
+
+            #navigation li {
+                list-style: none;
+                float: left;
+                margin: 2px;
+                padding: 2px 5px;
+                background-color: coral;
+            }
+
+                #navigation li a {
+                    text-decoration: none;
+                    color: black;
+                }
+
+        #prev-city {
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+        }
+
+        #next-city {
+            position: absolute;
+            bottom: -30px;
+            right: 0;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+</head>
+<body>
+    <div id="map-tourist">
+        <div id="map-canvas"></div>
+        <button id="prev-city">Previous City</button>
+        <ul id="navigation"></ul>
+        <button id="next-city">Next City</button>
+    </div>
+    <script src="map-tourist-api.js"></script>
+</body>
+</html>

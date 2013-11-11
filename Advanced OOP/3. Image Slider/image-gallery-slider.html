@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="scripts/object-create-extend.js"></script>
+    <script type="text/javascript" src="scripts/slide-controler.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="thumbnailsWrap"></div>
+        <div id="preview"></div>
+    </div>
+    <script>
+        var slideControler = Control.createSlider();
+        slideControler.init("thumbnailsWrap", "preview");
+
+        slideControler.addImage("star-wars-img", 
+            "images/thumbnails/star-wars-thumb.jpg",
+            "images/star-wars.jpg");
+
+        slideControler.addImage("vader-img",
+            "images/thumbnails/vader-thumb.jpg",
+            "images/vader.jpg");
+
+        slideControler.addImage("star-ship-img",
+            "images/thumbnails/star-ship-thumb.jpg",
+            "images/star-ship.jpg");
+
+        slideControler.addImage("jaba-img",
+            "images/thumbnails/jaba-thumb.jpg",
+            "images/jaba.jpg");
+
+        slideControler.addImage("star-wars2-img",
+            "images/thumbnails/star-wars2-thumb.jpg",
+            "images/star-wars2.jpg");
+ 
+        slideControler.renderImages();
+    </script>
+</body>
+</html>

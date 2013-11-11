@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Change Background</title>
+    <style>
+        body {
+            background: black;
+            margin: 0;
+        }
+
+        #wrapper {
+            margin-top: 40px;
+            margin-left:auto;
+            margin-right:auto;
+            background-color: #111;
+            border: 10px solid #333;
+            padding: 30px 20px;
+            width: 500px;
+            text-align: center;
+        }
+
+        a.button {
+            text-decoration: none;
+            color: #999;
+            background-color: #333;
+            padding: 5px 10px;
+        }
+
+        #input-text {
+            width: 300px;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>    
+    <div id="wrapper">        
+        <a href="#" class="button">Click to Change</a>
+        <input type="text" id="input-text" class="value-active"
+             value="Enter valid css value to change background color."/>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {  
+            $("#input-text").click(function(){  
+                $(this).removeClass("value-active").val("");
+            });
+
+            $(".button").on("click", function(){          
+                var colorValue = $("#input-text").val();
+                $("body").css("background-color", colorValue);
+            });
+        }); 
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿#wrapper {
+    font: 12px Verdana;
+    color: #222;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    padding: 5px 0;
+    font-size: 1.6em;
+    margin: 0;
+    background-color: coral;
+}
+
+input {
+    width: 100px;
+    margin-right: 20px;
+}
+
+#open-games-container, #active-games-container {
+    border: 3px solid coral;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.game-list li {
+    list-style: none;
+    margin: 5px auto;
+    padding: 5px;
+    border: 2px solid coral;
+    width: 500px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 5px;
+    display: inline-block;
+    background-color: grey;
+    color: #fff;
+    border: none;
+}
+
+    .button:hover {
+        text-decoration: underline;
+        background-color: coral;
+        color: #fff;
+    }
+
+#error-messages, .messages-list a {
+    color: #f00;
+    font-style: italic;
+}
+.messages-list {
+    list-style: none;
+}

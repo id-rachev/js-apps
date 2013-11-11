@@ -1,0 +1,4 @@
+$.ajax( { url: "https://api.mongolab.com/api/1/databases/nectarine-snake/collections/scores?apiKey=SMc-LQqBYw3u5ZSYeB5h5YPjhs1sNbny",
+	data: JSON.stringify( { "x" : 1 } ),
+	type: "POST",
+	contentType: "application/json" } );

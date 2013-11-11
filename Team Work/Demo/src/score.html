@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Snake Score</title>
+    <style>
+        body {
+            background: black;
+            margin: 0;
+        }
+
+        h1 {
+            color: #444;
+            margin: 0 0 10px;
+        }
+
+        #scoreWrap {
+            margin-top: 40px;
+            margin-left:auto;
+            margin-right:auto;
+            background-color: #111;
+            border: 10px dashed #333;
+            padding: 20px 20px 40px;
+            width: 400px;
+            text-align: center;
+        }
+
+        #scoreTable {
+            margin-left:auto;
+            margin-right:auto;
+            border-collapse: collapse;
+            color: #ffff00;
+            background-color: #333;
+        }
+
+        #scoreTable th, #scoreTable td {
+            border: 5px solid #999;
+            padding: 5px 15px;         
+        }
+
+        #scoreTable th {
+            color: #ffac00;        
+        }
+    </style>
+</head>
+
+<body>    
+    <div id="scoreWrap">
+        <h1>Snake Top Score</h1>
+        <table id="scoreTable">
+            <tr>
+                <th>rank</th>
+                <th>nickname</th>
+                <th>score</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>asfd</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>asfd</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>asfd</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>asfd</td>
+                <td>50</td>
+            </tr>
+        </table>
+        <a id="tweetBtnId" href="https://twitter.com/share" class="twitter-share-button" 
+         data-text="Check me out on OurWebSite!"
+         data-url="http://www.google.bg/"
+         data-via="http://www.google.bg/" data-size="medium" data-count="none">Tweet</a>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0]; 
+            if(!d.getElementById(id)){js=d.createElement(s); js.id=id; 
+              js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js,fjs);}}
+                (document,"script", "twitter-wjs");
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+D:\Projects\Telerik Academy\Java Script\JavaScript Applications\JavaScript projects\Exam\BattleGame\BattleGame.Client\bin\BattleGame.Client.dll
+D:\Projects\Telerik Academy\Java Script\JavaScript Applications\JavaScript projects\Exam\BattleGame\BattleGame.Client\bin\BattleGame.Client.pdb
+D:\Projects\Telerik Academy\Java Script\JavaScript Applications\JavaScript projects\Exam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.csprojResolveAssemblyReference.cache
+D:\Projects\Telerik Academy\Java Script\JavaScript Applications\JavaScript projects\Exam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.dll
+D:\Projects\Telerik Academy\Java Script\JavaScript Applications\JavaScript projects\Exam\BattleGame\BattleGame.Client\obj\Debug\BattleGame.Client.pdb

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Tree View</title>
+    <script src="scripts/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript" src="scripts/tree-view-jquery-plugin.js"></script>
+</head>
+<body>
+    <ul id="tree-view">
+        <li><a href="#">Item 1</a></li>
+        <li>
+            <a href="#">Item 2</a>
+            <ul>
+                <li><a href="#">Sub item 1</a></li>
+                <li><a href="#">Sub item 2</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Item 3</a>
+            <ul>
+                <li>
+                    <a href="#">Sub item 1</a>
+                    <ul>
+                        <li><a href="#">Sub subitem 1</a></li>
+                        <li><a href="#">Sub subitem 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Sub item 2</a>
+                    <ul>
+                        <li><a href="#">Sub subitem 1</a></li>
+                        <li><a href="#">Sub subitem 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">Item 4</a></li>
+        <li>
+            <a href="#">Item 5</a>
+            <ul>
+                <li>
+                    <a href="#">Sub item 1</a>
+                    <ul>
+                        <li><a href="#">Sub subitem 1</a></li>
+                        <li><a href="#">Sub subitem 2</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Sub item 2</a>
+                    <ul>
+                        <li><a href="#">Sub subitem 1</a></li>
+                        <li><a href="#">Sub subitem 2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#tree-view").treeView();
+        });
+    </script>
+</body>
+</html>
